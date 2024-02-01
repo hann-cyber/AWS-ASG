@@ -1,4 +1,4 @@
-# AWS-ASG
+# Automatic Scaling Groups in AWS Cloud
 The following is a guide on creating an Amazon Web Services Automatic Scaling Group (ASG), a supplemental service to load balancers. Compared to load balancers which only balance incoming traffic to various instances, ASGs utilize the best aspects of cloud: scaling and elasticity.
 
 ASGs can be setup to scale automatically based off many factors and needs. One example could be to automatically increase the number of instances used based on historical network data. For example sales during special events or holidays such as Black Friday, Cyber Monday or Christmas can result in more clients visiting webservers and higher applications usage. In such a case, instances could be added just before these seasonal events. Another example would be to automatically increase/decrease gaming server capacity based off current network usage.
